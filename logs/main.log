@@ -1,0 +1,106 @@
+2020-02-12 23:58:16,261 +0530 [main] INFO  (Steps.java:135) - ***Nocommerce admin URL launched successfully**
+2020-02-12 23:58:27,489 +0530 [main] INFO  (Steps.java:143) - ***Admin Email and password provided successfully***
+2020-02-12 23:58:28,648 +0530 [main] INFO  (Steps.java:149) - ***Admin login clicked***
+2020-02-12 23:58:29,835 +0530 [main] ERROR (Steps.java:167) - ***Admin dashboard page is not visible -Fail***
+2020-02-12 23:58:53,791 +0530 [main] INFO  (Steps.java:135) - ***Nocommerce admin URL launched successfully**
+2020-02-12 23:59:04,793 +0530 [main] INFO  (Steps.java:143) - ***Admin Email and password provided successfully***
+2020-02-12 23:59:05,972 +0530 [main] INFO  (Steps.java:149) - ***Admin login clicked***
+2020-02-12 23:59:06,835 +0530 [main] ERROR (Steps.java:167) - ***Admin dashboard page is not visible -Fail***
+2020-02-13 00:01:16,831 +0530 [main] INFO  (Steps.java:135) - ***Nocommerce admin URL launched successfully**
+2020-02-13 00:01:18,138 +0530 [main] INFO  (Steps.java:143) - ***Admin Email and password provided successfully***
+2020-02-13 00:01:25,876 +0530 [main] INFO  (Steps.java:149) - ***Admin login clicked***
+2020-02-13 00:01:25,947 +0530 [main] INFO  (Steps.java:161) - ***Admin dashboard page is visible -pass***
+2020-02-13 00:01:26,358 +0530 [main] INFO  (Steps.java:177) - ***Admin customer menu clicked***
+2020-02-13 00:01:31,558 +0530 [main] INFO  (Steps.java:184) - ***Admin customer list menu clicked***
+2020-02-13 00:01:33,906 +0530 [main] INFO  (Steps.java:193) - ***Admin new customer clicked***
+2020-02-13 00:01:34,005 +0530 [main] INFO  (Steps.java:206) - ***New customer info page displayed***
+2020-02-13 00:01:40,566 +0530 [main] INFO  (Steps.java:238) - ***New customer details filled successfully***
+2020-02-13 00:01:43,542 +0530 [main] INFO  (Steps.java:252) - ***New customer created successfully***
+2020-02-13 00:01:47,971 +0530 [main] INFO  (Steps.java:266) - ***Browser closed***
+2020-02-13 00:02:11,568 +0530 [main] INFO  (Steps.java:135) - ***Nocommerce admin URL launched successfully**
+2020-02-13 00:02:12,703 +0530 [main] INFO  (Steps.java:143) - ***Admin Email and password provided successfully***
+2020-02-13 00:02:20,909 +0530 [main] INFO  (Steps.java:149) - ***Admin login clicked***
+2020-02-13 00:02:20,978 +0530 [main] INFO  (Steps.java:161) - ***Admin dashboard page is visible -pass***
+2020-02-13 00:02:21,343 +0530 [main] INFO  (Steps.java:177) - ***Admin customer menu clicked***
+2020-02-13 00:02:26,765 +0530 [main] INFO  (Steps.java:184) - ***Admin customer list menu clicked***
+2020-02-13 00:02:28,135 +0530 [main] INFO  (Steps.java:276) - **Search Email provided**
+2020-02-13 00:02:28,373 +0530 [main] INFO  (Steps.java:284) - ***Search customer clicked***
+2020-02-13 00:02:52,524 +0530 [main] INFO  (Steps.java:84) - ***Nocommerce websited launched successfully***https://demo.nopcommerce.com/
+2020-02-13 00:02:54,243 +0530 [main] INFO  (Steps.java:91) - ***Top login is clicked***
+2020-02-13 00:02:55,297 +0530 [main] INFO  (Steps.java:98) - ***User Email and password provided successfully***
+2020-02-13 00:02:57,003 +0530 [main] INFO  (Steps.java:104) - ***Login  button is clicked***
+2020-02-13 00:02:57,066 +0530 [main] INFO  (Steps.java:116) - ***User login is success***
+2020-02-13 00:03:28,068 +0530 [main] INFO  (Steps.java:84) - ***Nocommerce websited launched successfully***https://demo.nopcommerce.com/
+2020-02-13 00:03:30,827 +0530 [main] INFO  (Steps.java:91) - ***Top login is clicked***
+2020-02-13 00:03:31,436 +0530 [main] INFO  (Steps.java:98) - ***User Email and password provided successfully***
+2020-02-13 00:03:33,540 +0530 [main] INFO  (Steps.java:104) - ***Login  button is clicked***
+2020-02-13 00:03:33,598 +0530 [main] INFO  (Steps.java:116) - ***User login is success***
+2020-02-13 00:04:14,871 +0530 [main] INFO  (Steps.java:84) - ***Nocommerce websited launched successfully***https://demo.nopcommerce.com/
+2020-02-13 00:04:17,097 +0530 [main] INFO  (Steps.java:91) - ***Top login is clicked***
+2020-02-13 00:04:18,307 +0530 [main] INFO  (Steps.java:98) - ***User Email and password provided successfully***
+2020-02-13 00:04:20,075 +0530 [main] INFO  (Steps.java:104) - ***Login  button is clicked***
+2020-02-13 00:04:20,125 +0530 [main] INFO  (Steps.java:121) - ***User login is Failure***
+2020-02-13 00:10:01,271 +0530 [main] INFO  (Steps.java:134) - ***Nocommerce admin URL launched successfully**
+2020-02-13 00:10:02,442 +0530 [main] INFO  (Steps.java:142) - ***Admin Email and password provided successfully***
+2020-02-13 00:10:08,999 +0530 [main] INFO  (Steps.java:148) - ***Admin login clicked***
+2020-02-13 00:10:09,050 +0530 [main] INFO  (Steps.java:160) - ***Admin dashboard page is visible -pass***
+2020-02-13 00:10:09,476 +0530 [main] INFO  (Steps.java:176) - ***Admin customer menu clicked***
+2020-02-13 00:10:13,736 +0530 [main] INFO  (Steps.java:183) - ***Admin customer list menu clicked***
+2020-02-13 00:10:16,290 +0530 [main] INFO  (Steps.java:192) - ***Admin new customer clicked***
+2020-02-13 00:10:16,364 +0530 [main] INFO  (Steps.java:205) - ***New customer info page displayed***
+2020-02-13 00:10:23,056 +0530 [main] INFO  (Steps.java:237) - ***New customer details filled successfully***
+2020-02-13 00:10:26,034 +0530 [main] INFO  (Steps.java:251) - ***New customer created successfully***
+2020-02-13 00:10:29,495 +0530 [main] INFO  (Steps.java:265) - ***Browser closed***
+2020-02-13 00:10:53,238 +0530 [main] INFO  (Steps.java:134) - ***Nocommerce admin URL launched successfully**
+2020-02-13 00:10:54,010 +0530 [main] INFO  (Steps.java:142) - ***Admin Email and password provided successfully***
+2020-02-13 00:11:01,310 +0530 [main] INFO  (Steps.java:148) - ***Admin login clicked***
+2020-02-13 00:11:01,342 +0530 [main] INFO  (Steps.java:160) - ***Admin dashboard page is visible -pass***
+2020-02-13 00:11:01,650 +0530 [main] INFO  (Steps.java:176) - ***Admin customer menu clicked***
+2020-02-13 00:11:05,808 +0530 [main] INFO  (Steps.java:183) - ***Admin customer list menu clicked***
+2020-02-13 00:11:06,988 +0530 [main] INFO  (Steps.java:275) - **Search Email provided**
+2020-02-13 00:11:07,157 +0530 [main] INFO  (Steps.java:283) - ***Search customer clicked***
+2020-02-13 00:11:30,450 +0530 [main] INFO  (Steps.java:83) - ***Nocommerce websited launched successfully***https://demo.nopcommerce.com/
+2020-02-13 00:11:32,416 +0530 [main] INFO  (Steps.java:90) - ***Top login is clicked***
+2020-02-13 00:11:33,233 +0530 [main] INFO  (Steps.java:97) - ***User Email and password provided successfully***
+2020-02-13 00:11:34,950 +0530 [main] INFO  (Steps.java:103) - ***Login  button is clicked***
+2020-02-13 00:11:35,018 +0530 [main] INFO  (Steps.java:115) - ***User login is success***
+2020-02-13 00:11:48,834 +0530 [main] INFO  (Steps.java:83) - ***Nocommerce websited launched successfully***https://demo.nopcommerce.com/
+2020-02-13 00:12:20,439 +0530 [main] INFO  (Steps.java:90) - ***Top login is clicked***
+2020-02-13 00:12:21,130 +0530 [main] INFO  (Steps.java:97) - ***User Email and password provided successfully***
+2020-02-13 00:13:07,809 +0530 [main] INFO  (Steps.java:103) - ***Login  button is clicked***
+2020-02-13 00:13:07,843 +0530 [main] INFO  (Steps.java:115) - ***User login is success***
+2020-02-13 00:14:05,512 +0530 [main] INFO  (Steps.java:83) - ***Nocommerce websited launched successfully***https://demo.nopcommerce.com/
+2020-02-13 00:28:49,104 +0530 [main] INFO  (Steps.java:134) - ***Nocommerce admin URL launched successfully**
+2020-02-13 00:28:50,117 +0530 [main] INFO  (Steps.java:142) - ***Admin Email and password provided successfully***
+2020-02-13 00:28:57,350 +0530 [main] INFO  (Steps.java:148) - ***Admin login clicked***
+2020-02-13 00:28:57,794 +0530 [main] INFO  (Steps.java:160) - ***Admin dashboard page is visible -pass***
+2020-02-13 00:28:58,172 +0530 [main] INFO  (Steps.java:176) - ***Admin customer menu clicked***
+2020-02-13 00:29:03,027 +0530 [main] INFO  (Steps.java:183) - ***Admin customer list menu clicked***
+2020-02-13 00:29:05,822 +0530 [main] INFO  (Steps.java:192) - ***Admin new customer clicked***
+2020-02-13 00:29:05,898 +0530 [main] INFO  (Steps.java:205) - ***New customer info page displayed***
+2020-02-13 00:29:12,274 +0530 [main] INFO  (Steps.java:237) - ***New customer details filled successfully***
+2020-02-13 00:29:15,543 +0530 [main] INFO  (Steps.java:251) - ***New customer created successfully***
+2020-02-13 00:29:21,961 +0530 [main] INFO  (Steps.java:265) - ***Browser closed***
+2020-02-13 00:29:34,600 +0530 [main] INFO  (Steps.java:83) - ***Nocommerce websited launched successfully***https://demo.nopcommerce.com/
+2020-02-13 00:29:36,127 +0530 [main] INFO  (Steps.java:90) - ***Top login is clicked***
+2020-02-13 00:29:36,769 +0530 [main] INFO  (Steps.java:97) - ***User Email and password provided successfully***
+2020-02-13 00:29:39,282 +0530 [main] INFO  (Steps.java:103) - ***Login  button is clicked***
+2020-02-13 00:29:39,338 +0530 [main] INFO  (Steps.java:115) - ***User login is success***
+2020-02-13 00:35:49,455 +0530 [main] INFO  (Steps.java:134) - ***Nocommerce admin URL launched successfully**
+2020-02-13 00:35:50,317 +0530 [main] INFO  (Steps.java:142) - ***Admin Email and password provided successfully***
+2020-02-13 00:36:08,192 +0530 [main] INFO  (Steps.java:148) - ***Admin login clicked***
+2020-02-13 00:36:08,252 +0530 [main] INFO  (Steps.java:160) - ***Admin dashboard page is visible -pass***
+2020-02-13 00:36:13,476 +0530 [main] INFO  (Steps.java:176) - ***Admin customer menu clicked***
+2020-02-13 00:36:39,910 +0530 [main] INFO  (Steps.java:134) - ***Nocommerce admin URL launched successfully**
+2020-02-13 00:36:40,682 +0530 [main] INFO  (Steps.java:142) - ***Admin Email and password provided successfully***
+2020-02-13 00:36:48,312 +0530 [main] INFO  (Steps.java:148) - ***Admin login clicked***
+2020-02-13 00:36:48,566 +0530 [main] INFO  (Steps.java:160) - ***Admin dashboard page is visible -pass***
+2020-02-13 00:36:48,815 +0530 [main] INFO  (Steps.java:176) - ***Admin customer menu clicked***
+2020-02-13 00:36:53,947 +0530 [main] INFO  (Steps.java:183) - ***Admin customer list menu clicked***
+2020-02-13 00:36:55,048 +0530 [main] INFO  (Steps.java:275) - **Search Email provided**
+2020-02-13 00:36:55,273 +0530 [main] INFO  (Steps.java:283) - ***Search customer clicked***
+2020-02-13 00:37:12,483 +0530 [main] INFO  (Steps.java:83) - ***Nocommerce websited launched successfully***https://demo.nopcommerce.com/
+2020-02-13 00:37:14,866 +0530 [main] INFO  (Steps.java:90) - ***Top login is clicked***
+2020-02-13 00:37:15,931 +0530 [main] INFO  (Steps.java:97) - ***User Email and password provided successfully***
+2020-02-13 00:37:19,393 +0530 [main] INFO  (Steps.java:103) - ***Login  button is clicked***
+2020-02-13 00:37:19,476 +0530 [main] INFO  (Steps.java:115) - ***User login is success***
