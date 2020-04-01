@@ -5,7 +5,7 @@ Feature: Login Feature
     And User navigates to nocommerce website "https://demo.nopcommerce.com/"
     Then User clicked Login button in top of the page
 
-@sanity
+@sanity @first
   Scenario: Login with valid credentials
     And User Enters Email as "dd@gmail.com" and Password as "Dhana-07"
     And User clicked on LOG IN button

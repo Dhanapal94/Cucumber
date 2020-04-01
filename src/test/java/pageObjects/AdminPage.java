@@ -21,7 +21,7 @@ WebDriver driver;
 	@FindBy(id="Password")
 	WebElement adminPassword;
 	
-	@FindBy(xpath="//input[@value='Log in']")
+	@FindBy(xpath="//input[@type='submit']")
 	WebElement adminLogin;
 	
 	public void setAdminEmail(String val)

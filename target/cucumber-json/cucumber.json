@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1300225000,
+              "duration": 738788200,
               "status": "passed"
             },
             "line": 4,
@@ -23,7 +23,7 @@
           },
           {
             "result": {
-              "duration": 5534985100,
+              "duration": 15480879000,
               "status": "passed"
             },
             "line": 5,
@@ -41,7 +41,7 @@
           },
           {
             "result": {
-              "duration": 849982600,
+              "duration": 1138995600,
               "status": "passed"
             },
             "line": 6,
@@ -63,7 +63,7 @@
           },
           {
             "result": {
-              "duration": 17873541500,
+              "duration": 23407277600,
               "status": "passed"
             },
             "line": 7,
@@ -75,7 +75,7 @@
           },
           {
             "result": {
-              "duration": 56378600,
+              "duration": 50197300,
               "status": "passed"
             },
             "line": 8,
@@ -87,7 +87,7 @@
           },
           {
             "result": {
-              "duration": 5221512900,
+              "duration": 233551400,
               "status": "passed"
             },
             "line": 9,
@@ -99,9 +99,8 @@
           },
           {
             "result": {
-              "duration": 10163613400,
-              "error_message": "org.openqa.selenium.ElementNotInteractableException: element not interactable\n  (Session info: chrome\u003d79.0.3945.130)\nBuild info: version: \u00274.0.0-alpha-3\u0027, revision: \u00278c567de6dc\u0027\nSystem info: host: \u0027LHTU05CG4472DYW\u0027, ip: \u0027192.168.43.103\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_201\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\\Users\\da4\\AppData\\Local\\...}, goog:chromeOptions: {debuggerAddress: localhost:52214}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 0d925abb19361a328d082432eb1811a9\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:191)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:125)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:576)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:308)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)\r\n\tat com.sun.proxy.$Proxy16.click(Unknown Source)\r\n\tat pageObjects.DashboardPage.customersListClick(DashboardPage.java:34)\r\n\tat stepDefinitions.Steps.user_click_on_Customers_in_the_list(Steps.java:182)\r\n\tat ✽.And User click on Customers in the list(Customers.feature:10)\r\n",
-              "status": "failed"
+              "duration": 3815477500,
+              "status": "passed"
             },
             "line": 10,
             "name": "User click on Customers in the list",
@@ -116,7 +115,7 @@
         "before": [
           {
             "result": {
-              "duration": 13687817100,
+              "duration": 16582768600,
               "status": "passed"
             },
             "match": {
@@ -128,12 +127,25 @@
         "name": "Add a new Customer",
         "description": "",
         "id": "customers;add-a-new-customer",
+        "after": [
+          {
+            "result": {
+              "duration": 2049353700,
+              "error_message": "org.openqa.selenium.NoSuchSessionException: invalid session id\nBuild info: version: \u00274.0.0-alpha-3\u0027, revision: \u00278c567de6dc\u0027\nSystem info: host: \u0027LHTU05CG4472DYW\u0027, ip: \u002710.21.226.136\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_201\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\\Users\\da4\\AppData\\Local\\...}, goog:chromeOptions: {debuggerAddress: localhost:58721}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 76a6e47632bae16204256a25a9da2220\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:191)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:125)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:576)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:633)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:462)\r\n\tat stepDefinitions.Steps.tearDown(Steps.java:380)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)\r\n\tat cucumber.runtime.Runtime.runHooks(Runtime.java:212)\r\n\tat cucumber.runtime.Runtime.runAfterHooks(Runtime.java:206)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)\r\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:100)\r\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)\r\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)\r\n",
+              "status": "failed"
+            },
+            "match": {
+              "location": "Steps.tearDown()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 2926776800,
+              "status": "passed"
             },
             "line": 14,
             "name": "User click on Add New button for adding a new customer",
@@ -144,7 +156,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 190281000,
+              "status": "passed"
             },
             "line": 15,
             "name": "Customers info page for adding new customer should display",
@@ -155,7 +168,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 5924532000,
+              "status": "passed"
             },
             "line": 16,
             "name": "User fills the new customer details",
@@ -166,7 +180,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2716086200,
+              "status": "passed"
             },
             "line": 17,
             "name": "click on save button",
@@ -177,7 +192,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 72820700,
+              "status": "passed"
             },
             "line": 18,
             "name": "Success \"The new customer has been added successfully\" message should display",
@@ -194,7 +210,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 3463596400,
+              "status": "passed"
             },
             "line": 19,
             "name": "close the browser",
@@ -220,7 +237,7 @@
         "steps": [
           {
             "result": {
-              "duration": 102609500,
+              "duration": 45398800,
               "status": "passed"
             },
             "line": 4,
@@ -232,7 +249,7 @@
           },
           {
             "result": {
-              "duration": 4909273100,
+              "duration": 11986380400,
               "status": "passed"
             },
             "line": 5,
@@ -250,7 +267,7 @@
           },
           {
             "result": {
-              "duration": 769031600,
+              "duration": 602743000,
               "status": "passed"
             },
             "line": 6,
@@ -272,7 +289,7 @@
           },
           {
             "result": {
-              "duration": 7624835600,
+              "duration": 15728660100,
               "status": "passed"
             },
             "line": 7,
@@ -284,7 +301,7 @@
           },
           {
             "result": {
-              "duration": 252499600,
+              "duration": 13965300,
               "status": "passed"
             },
             "line": 8,
@@ -296,7 +313,7 @@
           },
           {
             "result": {
-              "duration": 246139600,
+              "duration": 142282500,
               "status": "passed"
             },
             "line": 9,
@@ -308,7 +325,7 @@
           },
           {
             "result": {
-              "duration": 5128719500,
+              "duration": 3370600900,
               "status": "passed"
             },
             "line": 10,
@@ -324,7 +341,7 @@
         "before": [
           {
             "result": {
-              "duration": 11086340200,
+              "duration": 11332818100,
               "status": "passed"
             },
             "match": {
@@ -336,12 +353,24 @@
         "name": "Search a customer via Email",
         "description": "",
         "id": "customers;search-a-customer-via-email",
+        "after": [
+          {
+            "result": {
+              "duration": 2013086800,
+              "error_message": "org.openqa.selenium.NoSuchSessionException: invalid session id\nBuild info: version: \u00274.0.0-alpha-3\u0027, revision: \u00278c567de6dc\u0027\nSystem info: host: \u0027LHTU05CG4472DYW\u0027, ip: \u002710.21.226.136\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_201\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\\Users\\da4\\AppData\\Local\\...}, goog:chromeOptions: {debuggerAddress: localhost:58761}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 0d32ca921ca1fd4fbd81349fa84b4f09\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:191)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:125)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:576)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:633)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:462)\r\n\tat stepDefinitions.Steps.tearDown(Steps.java:380)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)\r\n\tat cucumber.runtime.Runtime.runHooks(Runtime.java:212)\r\n\tat cucumber.runtime.Runtime.runAfterHooks(Runtime.java:206)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)\r\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:100)\r\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)\r\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)\r\n",
+              "status": "failed"
+            },
+            "match": {
+              "location": "Steps.tearDown()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 1093960200,
+              "duration": 734745300,
               "status": "passed"
             },
             "line": 23,
@@ -353,7 +382,7 @@
           },
           {
             "result": {
-              "duration": 222577500,
+              "duration": 158729200,
               "status": "passed"
             },
             "line": 24,
@@ -365,9 +394,8 @@
           },
           {
             "result": {
-              "duration": 726447400,
-              "error_message": "org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document\n  (Session info: chrome\u003d79.0.3945.130)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: \u00274.0.0-alpha-3\u0027, revision: \u00278c567de6dc\u0027\nSystem info: host: \u0027LHTU05CG4472DYW\u0027, ip: \u0027192.168.43.103\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_201\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\\Users\\da4\\AppData\\Local\\...}, goog:chromeOptions: {debuggerAddress: localhost:52239}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 1676c37c122903aee7b8f994ea321901\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:191)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:125)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:576)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:308)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:173)\r\n\tat pageObjects.SearchCustomerPage.tableSearchResults(SearchCustomerPage.java:55)\r\n\tat stepDefinitions.Steps.respective_searched_Email_customer_should_present_in_a_search_table(Steps.java:289)\r\n\tat ✽.Then Respective searched Email customer should present in a search table(Customers.feature:25)\r\n",
-              "status": "failed"
+              "duration": 228638800,
+              "status": "passed"
             },
             "line": 25,
             "name": "Respective searched Email customer should present in a search table",
@@ -378,7 +406,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 3615128800,
+              "status": "passed"
             },
             "line": 26,
             "name": "close the browser",
@@ -406,6 +435,201 @@
     "line": 1,
     "elements": [
       {
+        "before": [
+          {
+            "result": {
+              "duration": 11486601600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 95200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.beforeMethod()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Admin login with valid credentials",
+        "description": "",
+        "id": "admin-login;admin-login-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 72400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.afterMethod()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2392068600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 37258200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User launches browser",
+            "match": {
+              "location": "Steps.user_launches__browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 15841126300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User navigates to nocommerce  admin website \"https://admin-demo.nopcommerce.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://admin-demo.nopcommerce.com/",
+                  "offset": 45
+                }
+              ],
+              "location": "Steps.user_navigates_to_nocommerce_admin_website(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 858674700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User provides admin credentails to login",
+            "match": {
+              "location": "Steps.user_provides_admin_credentails_to_login(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Username",
+                  "Password"
+                ],
+                "line": 8
+              },
+              {
+                "cells": [
+                  "admin@yourstore.com",
+                  "admin"
+                ],
+                "line": 9
+              },
+              {
+                "cells": [
+                  "admin@your.com",
+                  "admin"
+                ],
+                "line": 10
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 19021891700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User click on admin Login Button",
+            "match": {
+              "location": "Steps.user_click_on_admin_Login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20137100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User should view admin Dashboard page",
+            "match": {
+              "location": "Steps.user_should_view_admin_Dashboard_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 182700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User checks the mail \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 22
+                }
+              ],
+              "location": "Steps.user_checks_the_mail(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 156900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "first name of the user is \"Dhanapal Karthik\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dhanapal Karthik",
+                  "offset": 27
+                }
+              ],
+              "location": "Steps.first_name_of_the_user_is(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@first"
+          },
+          {
+            "line": 3,
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "Admin Login",
+    "description": "",
+    "id": "admin-login",
+    "keyword": "Feature",
+    "uri": "Login-Admin.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
         "line": 3,
         "name": "Below are the steps common for all the scenarios",
         "description": "",
@@ -414,7 +638,7 @@
         "steps": [
           {
             "result": {
-              "duration": 53386200,
+              "duration": 34664600,
               "status": "passed"
             },
             "line": 4,
@@ -426,7 +650,7 @@
           },
           {
             "result": {
-              "duration": 4392241000,
+              "duration": 16491903400,
               "status": "passed"
             },
             "line": 5,
@@ -444,7 +668,7 @@
           },
           {
             "result": {
-              "duration": 2381619800,
+              "duration": 2782754700,
               "status": "passed"
             },
             "line": 6,
@@ -460,11 +684,20 @@
         "before": [
           {
             "result": {
-              "duration": 12015637400,
+              "duration": 13548665200,
               "status": "passed"
             },
             "match": {
               "location": "Steps.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 41900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.beforeMethod()"
             }
           }
         ],
@@ -472,12 +705,33 @@
         "name": "Login with valid credentials",
         "description": "",
         "id": "login-feature;login-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 79200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.afterMethod()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2007044100,
+              "error_message": "org.openqa.selenium.NoSuchSessionException: invalid session id\nBuild info: version: \u00274.0.0-alpha-3\u0027, revision: \u00278c567de6dc\u0027\nSystem info: host: \u0027LHTU05CG4472DYW\u0027, ip: \u002710.21.226.136\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_201\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\\Users\\da4\\AppData\\Local\\...}, goog:chromeOptions: {debuggerAddress: localhost:58830}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: b31ad85b039530f077a9219dd824c5f6\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:191)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:125)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:576)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:633)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:462)\r\n\tat stepDefinitions.Steps.tearDown(Steps.java:380)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)\r\n\tat cucumber.runtime.Runtime.runHooks(Runtime.java:212)\r\n\tat cucumber.runtime.Runtime.runAfterHooks(Runtime.java:206)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)\r\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:100)\r\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)\r\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)\r\n",
+              "status": "failed"
+            },
+            "match": {
+              "location": "Steps.tearDown()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 1060093800,
+              "duration": 659672000,
               "status": "passed"
             },
             "line": 10,
@@ -499,7 +753,7 @@
           },
           {
             "result": {
-              "duration": 3455754600,
+              "duration": 1386415100,
               "status": "passed"
             },
             "line": 11,
@@ -511,8 +765,9 @@
           },
           {
             "result": {
-              "duration": 2546696600,
-              "status": "passed"
+              "duration": 950573500,
+              "error_message": "junit.framework.AssertionFailedError\r\n\tat junit.framework.Assert.fail(Assert.java:55)\r\n\tat junit.framework.Assert.assertTrue(Assert.java:22)\r\n\tat junit.framework.Assert.assertTrue(Assert.java:31)\r\n\tat stepDefinitions.Steps.page_should_contains(Steps.java:130)\r\n\tat ✽.Then Page should contains \"Log out\"(Login-Nocommerce.feature:12)\r\n",
+              "status": "failed"
             },
             "line": 12,
             "name": "Page should contains \"Log out\"",
@@ -532,6 +787,304 @@
           {
             "line": 8,
             "name": "@sanity"
+          },
+          {
+            "line": 8,
+            "name": "@first"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Below are the steps common for all the scenarios",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 53818800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User launches browser",
+            "match": {
+              "location": "Steps.user_launches__browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 15506683100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigates to nocommerce website \"https://demo.nopcommerce.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://demo.nopcommerce.com/",
+                  "offset": 38
+                }
+              ],
+              "location": "Steps.user_navigates_to_nocommerce_website(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6721945500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User clicked Login button in top of the page",
+            "match": {
+              "location": "Steps.user_clicked_Login_button_in_top_of_the_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11619447300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.setUp()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Login with valid credentials datadriven",
+        "description": "",
+        "id": "login-feature;login-with-valid-credentials-datadriven;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 2019896600,
+              "error_message": "org.openqa.selenium.NoSuchSessionException: invalid session id\nBuild info: version: \u00274.0.0-alpha-3\u0027, revision: \u00278c567de6dc\u0027\nSystem info: host: \u0027LHTU05CG4472DYW\u0027, ip: \u002710.21.226.136\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_201\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\\Users\\da4\\AppData\\Local\\...}, goog:chromeOptions: {debuggerAddress: localhost:58860}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 25620494ee75ec0a68d4b4a3b80b40e1\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:191)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:125)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:576)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:633)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:462)\r\n\tat stepDefinitions.Steps.tearDown(Steps.java:380)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)\r\n\tat cucumber.runtime.Runtime.runHooks(Runtime.java:212)\r\n\tat cucumber.runtime.Runtime.runAfterHooks(Runtime.java:206)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)\r\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:100)\r\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)\r\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)\r\n",
+              "status": "failed"
+            },
+            "match": {
+              "location": "Steps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1092882100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User Enters Email as \"dd@gmail.com\" and Password as \"Dhana-07\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "dd@gmail.com",
+                  "offset": 22
+                },
+                {
+                  "val": "Dhana-07",
+                  "offset": 53
+                }
+              ],
+              "location": "Steps.user_Enters_Email_as_and_Password_as(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1558103500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User clicked on LOG IN button",
+            "match": {
+              "location": "Steps.user_clicked_on_LOG_IN_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2379592900,
+              "error_message": "junit.framework.AssertionFailedError\r\n\tat junit.framework.Assert.fail(Assert.java:55)\r\n\tat junit.framework.Assert.assertTrue(Assert.java:22)\r\n\tat junit.framework.Assert.assertTrue(Assert.java:31)\r\n\tat stepDefinitions.Steps.page_should_contains(Steps.java:130)\r\n\tat ✽.Then Page should contains \"Log out\"(Login-Nocommerce.feature:18)\r\n",
+              "status": "failed"
+            },
+            "line": 18,
+            "name": "Page should contains \"Log out\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Log out",
+                  "offset": 22
+                }
+              ],
+              "location": "Steps.page_should_contains(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 14,
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Below are the steps common for all the scenarios",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 67267200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User launches browser",
+            "match": {
+              "location": "Steps.user_launches__browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 16499927100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigates to nocommerce website \"https://demo.nopcommerce.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://demo.nopcommerce.com/",
+                  "offset": 38
+                }
+              ],
+              "location": "Steps.user_navigates_to_nocommerce_website(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3188699800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User clicked Login button in top of the page",
+            "match": {
+              "location": "Steps.user_clicked_Login_button_in_top_of_the_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 16094686000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.setUp()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Login with valid credentials datadriven",
+        "description": "",
+        "id": "login-feature;login-with-valid-credentials-datadriven;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 2007100200,
+              "error_message": "org.openqa.selenium.NoSuchSessionException: invalid session id\nBuild info: version: \u00274.0.0-alpha-3\u0027, revision: \u00278c567de6dc\u0027\nSystem info: host: \u0027LHTU05CG4472DYW\u0027, ip: \u002710.21.226.136\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_201\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\\Users\\da4\\AppData\\Local\\...}, goog:chromeOptions: {debuggerAddress: localhost:58955}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 4c28ac10477dfc5decb366a541aefc86\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:191)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:125)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:576)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:633)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:462)\r\n\tat stepDefinitions.Steps.tearDown(Steps.java:380)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)\r\n\tat cucumber.runtime.Runtime.runHooks(Runtime.java:212)\r\n\tat cucumber.runtime.Runtime.runAfterHooks(Runtime.java:206)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)\r\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:100)\r\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)\r\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)\r\n",
+              "status": "failed"
+            },
+            "match": {
+              "location": "Steps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1441061700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User Enters Email as \"dhanapalinfocse@gmail.com\" and Password as \"Dhana-01\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "dhanapalinfocse@gmail.com",
+                  "offset": 22
+                },
+                {
+                  "val": "Dhana-01",
+                  "offset": 66
+                }
+              ],
+              "location": "Steps.user_Enters_Email_as_and_Password_as(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2151185700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User clicked on LOG IN button",
+            "match": {
+              "location": "Steps.user_clicked_on_LOG_IN_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1096118900,
+              "error_message": "junit.framework.AssertionFailedError\r\n\tat junit.framework.Assert.fail(Assert.java:55)\r\n\tat junit.framework.Assert.assertTrue(Assert.java:22)\r\n\tat junit.framework.Assert.assertTrue(Assert.java:31)\r\n\tat stepDefinitions.Steps.page_should_contains(Steps.java:130)\r\n\tat ✽.Then Page should contains \"Log out\"(Login-Nocommerce.feature:18)\r\n",
+              "status": "failed"
+            },
+            "line": 18,
+            "name": "Page should contains \"Log out\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Log out",
+                  "offset": 22
+                }
+              ],
+              "location": "Steps.page_should_contains(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 14,
+            "name": "@regression"
           }
         ]
       }
@@ -541,5 +1094,222 @@
     "id": "login-feature",
     "keyword": "Feature",
     "uri": "Login-Nocommerce.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Below are the common steps for all the scenarios",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 56006700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User launches browser",
+            "match": {
+              "location": "Steps.user_launches__browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 15554925200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigates to nocommerce  admin website \"https://admin-demo.nopcommerce.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://admin-demo.nopcommerce.com/",
+                  "offset": 45
+                }
+              ],
+              "location": "Steps.user_navigates_to_nocommerce_admin_website(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 702557300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User provides admin Email as \"admin@yourstore.com\" and password as \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin@yourstore.com",
+                  "offset": 30
+                },
+                {
+                  "val": "admin",
+                  "offset": 68
+                }
+              ],
+              "location": "Steps.user_provides_admin_Email_as_and_password_as(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 18391053500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click on admin Login Button",
+            "match": {
+              "location": "Steps.user_click_on_admin_Login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20832400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should view admin Dashboard page",
+            "match": {
+              "location": "Steps.user_should_view_admin_Dashboard_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 13636320400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.setUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Shipment Edit",
+        "description": "",
+        "id": "shipments;shipment-edit",
+        "after": [
+          {
+            "result": {
+              "duration": 3167719500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 214932800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User clicked on Sales in dashboard",
+            "match": {
+              "location": "Steps.user_clicked_on_Sales_in_dashboard()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4091148100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User clicked on Shipments in sales list",
+            "match": {
+              "location": "Steps.user_clicked_on_Shipments_in_sales_list()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 237343800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User should view Shipments page",
+            "match": {
+              "location": "Steps.user_should_view_Shipments_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3249251600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User clicked on View button of the maximum Total weight",
+            "match": {
+              "location": "Steps.user_clicked_on_View_button_of_the_maximum_Total_weight()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 407945800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User Enter the tracking Number as \"03041\" in tracking box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "03041",
+                  "offset": 35
+                }
+              ],
+              "location": "Steps.user_Enter_the_tracking_Number_as_in_tracking_box(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2989926300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User clicked on Set Tracking Number",
+            "match": {
+              "location": "Steps.user_clicked_on_Set_Tracking_Number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4554503700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User clicked on Shipments in sales list",
+            "match": {
+              "location": "Steps.user_clicked_on_Shipments_in_sales_list()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Shipments",
+    "description": "",
+    "id": "shipments",
+    "keyword": "Feature",
+    "uri": "Shipments.feature"
   }
 ]

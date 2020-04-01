@@ -27,7 +27,7 @@ public class SearchCustomerPage {
 	@FindBy(id="search-customers")
 	WebElement search;
 	
-	By tableResults = By.xpath("//table[@id='customers-grid']/tbody/tr/td");
+	By tableResults = By.xpath("//table[@id='customers-grid']/tbody/tr/td[2]");
 	
 	public void getEmail(String email)
 	{

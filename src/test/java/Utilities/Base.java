@@ -11,6 +11,8 @@ import pageObjects.AdminPage;
 import pageObjects.DashboardPage;
 import pageObjects.LoginPage;
 import pageObjects.SearchCustomerPage;
+import pageObjects.ShipmentsDashboardPage;
+import pageObjects.ShipmentsEditPage;
 
 public class Base {
 	public WebDriver driver;
@@ -19,9 +21,11 @@ public class Base {
 	public DashboardPage dashBoard;
 	public AddnewCustomer addNewCustomer;
 	public SearchCustomerPage searchCustomer;
+	public ShipmentsDashboardPage shipmentsdash;
+	public ShipmentsEditPage shipmentsedit;
 	public Logger log;
-	public static Properties prop;
-	public String filePath ="./Configuration\\data.properties";	
+	
+	
 	
 	public String randomString()
 	{

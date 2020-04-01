@@ -3,6 +3,8 @@ package stepDefinitions;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.util.List;
+import java.util.Map;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
@@ -15,28 +17,32 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
+import Transformation.EmailTranform;
+import Transformation.NameTransform;
 import Utilities.Base;
+import Utilities.ReadConfig;
+import cucumber.api.DataTable;
+import cucumber.api.Transform;
+import cucumber.api.java.After;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.*;
 import junit.framework.Assert;
-import pageObjects.AddnewCustomer;
-import pageObjects.AdminPage;
-import pageObjects.DashboardPage;
 import pageObjects.*;
 
 public class Steps extends Base{
 	
 	String emailValue = "james_pan@nopCommerce.com";
+	ReadConfig conf ;
 	
-	@Before
+	@Before(order=0)
 	public void setUp() throws IOException
 	{
-		prop = new Properties();	
-		FileInputStream fin = new FileInputStream(filePath);
-		prop.load(fin);
-		if(prop.getProperty("browser").equals("chrome"))
+		conf =  new ReadConfig();
+		System.out.println(conf.browserName());
+		System.out.println("Test started -Execution - launching browser");
+		if(conf.browserName().equals("chrome"))
 		{
-			System.setProperty("webdriver.chrome.driver",prop.getProperty("chromePath"));
+			System.setProperty("webdriver.chrome.driver",conf.chromePath());
 			ChromeOptions options = new ChromeOptions();
 			options.setExperimentalOption("useAutomationExtension", false);
 			options.setExperimentalOption("excludeSwitches", new String[] { "enable-automation" });
@@ -44,9 +50,9 @@ public class Steps extends Base{
 			options.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
 			driver = new ChromeDriver(options);			
 		}
-		else if(prop.getProperty("browser").equals("internet explorer"))
+		else if(conf.browserName().equals("internet explorer"))
 		{
-			System.setProperty("webdriver.ie.driver", prop.getProperty("iePath"));
+			System.setProperty("webdriver.ie.driver",conf.iePath());
 			DesiredCapabilities caps = new DesiredCapabilities();
 			caps.setCapability("ignoreZoomSetting", true);
 			caps.setCapability(InternetExplorerDriver.NATIVE_EVENTS, false);
@@ -74,6 +80,8 @@ public class Steps extends Base{
 		addNewCustomer= new AddnewCustomer(driver);
 		searchCustomer = new SearchCustomerPage(driver);	
 		log = Logger.getLogger("Cucumber");
+		shipmentsdash = new ShipmentsDashboardPage(driver);
+		shipmentsedit = new ShipmentsEditPage(driver);
 		PropertyConfigurator.configure("log4j.properties");
 	}
 
@@ -293,16 +301,109 @@ public class Steps extends Base{
 			Assert.assertTrue(true);
 			System.out.println("Searched Email found in Table results");
 			log.info("***Search email found in Table***");
-			driver.close();
 		}
 		else
 		{
 			System.out.println("Searched Email not found in Table results");
-			driver.close();
 			log.info("***Search email not found in Table***");
 			Assert.assertTrue(false);
 		}
 	}
+	@Then("^User provides admin credentails to login$")
+	public void user_provides_admin_credentails_to_login(DataTable credentials) throws Throwable {
+	    
+		List<Map<String,String>> data = credentials.asMaps(String.class,String.class);
+		admin.setAdminEmail(data.get(0).get("Username"));
+		admin.setAdminPassword(data.get(0).get("Password"));
+	    
+	}
+	@Then("^User checks the mail \"([^\"]*)\"$")
+	public void user_checks_the_mail(@Transform(EmailTranform.class)String email) throws Throwable {
+	   
+		System.out.println("Transformed Value is : "+email);
+		
+	}
+	@Then("^first name of the user is \"([^\"]*)\"$")
+	public void first_name_of_the_user_is(@Transform(NameTransform.class)String name) throws Throwable {
+	  
+		System.out.println("Transformed first name is : "+name);
+	}
+	
+	@Given("^User clicked on Sales in dashboard$")
+	public void user_clicked_on_Sales_in_dashboard() throws Throwable {
+		dashBoard.salesClick();
+	}
+
+	@Given("^User clicked on Shipments in sales list$")
+	public void user_clicked_on_Shipments_in_sales_list() throws Throwable {
+		dashBoard.shipmentsClick();
+	}
+
+	@Then("^User should view Shipments page$")
+	public void user_should_view_Shipments_page() throws Throwable {
+		String actual = driver.getPageSource();
+		String expected = "Date shipped";
+		if(actual.contains(expected))
+		{
+			Assert.assertTrue(true);
+			log.info("Shipments page is found");
+		}
+		else
+		{
+			log.error("Shipments page not found");
+			Assert.assertTrue(false);
+		}
+	   
+	}
+
+	@Then("^User clicked on View button of the maximum Total weight$")
+	public void user_clicked_on_View_button_of_the_maximum_Total_weight() throws Throwable {
+		shipmentsdash.viewClick();
+	}
+
+	@Then("^User Enter the tracking Number as \"([^\"]*)\" in tracking box$")
+	public void user_Enter_the_tracking_Number_as_in_tracking_box(String arg1) throws Throwable {
+		shipmentsedit.setTrackingNumber(arg1);
+	}
+
+	@Then("^User clicked on Set Tracking Number$")
+	public void user_clicked_on_Set_Tracking_Number() throws Throwable {
+		shipmentsedit.setTrackingNumberClick();
+	    
+	}
+
+	@After(order=0)
+	public void tearDown() throws InterruptedException
+	{
+		System.out.println("Test ended - closing browser");
+		Thread.sleep(2000);
+		driver.close();
+	}
+	
+	@Before("@first")
+	public void beforeMethod()
+	{
+		System.out.println("Alas ! Im before method");
+	}
+	
+	@After("@first")
+	public void afterMethod()
+	{
+		System.out.println("Alas ! Im after method");
+	}
+	
+	@Before("@second")
+	public void beforeMethod1()
+	{
+		System.out.println("search email before");
+	}
+	
+	@After("@second")
+	public void afterMethod1()
+	{
+		System.out.println("search email after");
+	}
+	
 	
 
 }

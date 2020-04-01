@@ -24,6 +24,12 @@ public class DashboardPage {
 	@FindBy(xpath="//a[@class='btn bg-blue' and @href='/Admin/Customer/Create']")
 	WebElement addNew;
 	
+	@FindBy(xpath="//span[text()='Sales']")
+	WebElement sales;
+	
+	@FindBy(xpath="//span[text()='Shipments']")
+	WebElement shipments;
+	
 	public void customerMenuClick()
 	{
 		customersMenu.click();
@@ -37,6 +43,16 @@ public class DashboardPage {
 	public void addNewCustomer()
 	{
 		addNew.click();
+	}
+	
+	public void salesClick()
+	{
+		sales.click();
+	}
+	
+	public void shipmentsClick()
+	{
+		shipments.click();
 	}
 	
 

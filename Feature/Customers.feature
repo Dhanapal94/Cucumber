@@ -9,7 +9,7 @@ Feature: Customers
     Then User click on Customers in menu
     And User click on Customers in the list
 
-@sanity
+  @sanity
   Scenario: Add a new Customer
     When User click on Add New button for adding a new customer
     Then Customers info page for adding new customer should display
@@ -18,7 +18,7 @@ Feature: Customers
     Then Success "The new customer has been added successfully" message should display
     And close the browser
 
-@smoke
+  @smoke
   Scenario: Search a customer via Email
     When User provides Email id in the Email Box
     And User click on Search Button
